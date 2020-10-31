@@ -1,0 +1,128 @@
+.blog {
+    background-image: url(../the-restaurant-mall-assets/blog-header.jpg);
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+// ASIDE section styles
+
+.aside-box {
+    padding: 20px;
+    background-color: $almost-black;
+    margin: 60px 40px 40px 40px;
+}
+
+.aside-box figure {
+    margin: -35px 0 0 -60px;
+    padding-bottom: 20px;
+}
+
+.aside-box ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+aside p {
+    padding-bottom: 40px;
+}
+
+// EMPLOYMENT section styles
+
+.employment-container {
+    margin-top: -80px;
+}
+
+.employment-container img {
+    box-shadow: -20px 20px $yellow;
+}
+
+.employment-container figure {
+    margin: 0;
+    padding-left: 40px;
+}
+
+.employment-container div {
+    padding: 60px;
+    border-left: 5px solid $yellow;
+    border-bottom: 5px solid $yellow;
+    margin-left: 20px;
+}
+
+.employment-container p {
+    padding-top: 30px;
+}
+
+.byline {
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+// COMMENTS section styles
+
+.comment-wrapper {
+    padding: 40px 80px;
+}
+
+.comment-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.comment-container figure,
+.comment-container div {
+    margin: 30px 0;
+}
+
+.comment-container div {
+    padding: 15px 0 0 20px;
+}
+
+.comment-container .byline {
+    color: $yellow;
+    padding-bottom: 10px;
+}
+
+// FORM section styles
+
+form[action=comment] {
+    padding: 0 60px 60px;
+}
+
+input {
+    background-color: transparent;
+    color: $white;
+}
+
+input[type=name],
+input[type=email] {
+    padding: 20px;
+    border: none;
+    border-bottom: 2px solid $yellow;
+    width: 47.5%;
+}
+
+input[type=name] {
+    margin-right: 4%;
+}
+
+input[type=text] {
+    padding: 20px 20px 100px;
+    border: 2px solid $yellow;
+    width: 100%;
+    margin-top: 30px;
+}
+
+::placeholder {
+    opacity: 1;
+}
+
+form button {
+    background-color: $yellow;
+    margin-top: 30px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+}

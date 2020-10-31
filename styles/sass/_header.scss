@@ -1,0 +1,48 @@
+.home {
+    background-image: url(../the-restaurant-mall-assets/home-header.jpg);
+}
+
+.navigation {
+    display: flex;
+    @include josefin(20px, 29px , 700);
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 30px;
+}
+
+.navigation li {
+    padding: 30px 20px 20px 0;
+}
+
+.navigation a {
+    border-bottom: 3px solid transparent;
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.navigation a:active {
+    border-bottom: 3px solid $yellow;
+}
+
+h1 {
+    @include josefin(69px, 1 , 600);
+    width: 470px;
+    padding-bottom: 300px;
+    margin: 0;
+}
+
+span {
+    display: inline-block;
+    background-color: $white;
+    color: $black;
+    padding-top: 14px;
+    margin-bottom: 10px;
+}
+
+.home img {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    top: 15%;
+    max-width: 700px;
+}

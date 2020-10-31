@@ -1,0 +1,124 @@
+// ABOUT section styles
+.about {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-grid {
+    display: flex;
+    padding: 30px;
+    width: 50%;
+}
+
+.icons i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $black;
+    background-color: $yellow;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 20px 10px;
+}
+
+// BURGER section styles
+
+.burger {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.burger-grid {
+    width: 50%;
+    margin: 0;
+}
+
+.burger-grid a {
+    background-color: $yellow;
+    color: $black;
+    margin-top: 30px;
+}
+
+.shadow1 img,
+.shadow2 img {
+    position: relative;
+}
+
+.shadow1 img {
+    box-shadow: 20px 20px $yellow;
+    top: -100px;
+    left: 0;
+}
+
+.shadow2 img {
+    box-shadow: -20px 20px $yellow;
+    bottom: -100px;
+    right: 0;
+}
+
+.shadow1 {
+    padding-right: 80px;
+    margin-bottom: -50px;
+}
+
+.shadow2 {
+    padding-left: 80px;
+    margin-top: -80px;
+}
+
+.left-align {
+    padding: 0px 80px 0 60px;
+    z-index: 1;
+}
+
+.right-align {
+    text-align: right;
+    padding: 20px 60px 0 80px;
+}
+
+// GIFTCARD section styles
+
+.gift {
+    text-align: center;
+    padding: 120px 0 100px 0;
+}
+
+.gift a,
+.nature a {
+    background-color: $black;
+    margin-top: 40px;
+}
+
+.gift p {
+    text-align: left;
+}
+
+// NATURE section styles
+
+.nature {
+    display: flex;
+    padding: 100px 0;
+}
+
+.nature figure {
+    width: 30%;
+}
+
+.nature div {
+    width: 70%;
+    padding: 0;
+}
+
+.nature figure img {
+    box-shadow: -20px 20px $yellow;
+}
+
+// GALLERY section styles
+
+.gallery {
+    display: flex;
+    padding: 50px 0;
+}

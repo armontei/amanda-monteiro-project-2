@@ -1,0 +1,691 @@
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+article, aside, footer, header, nav, section {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0;
+}
+
+figcaption, figure, main {
+  display: block;
+}
+
+figure {
+  margin: 1em 40px;
+}
+
+hr {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+b, strong {
+  font-weight: inherit;
+}
+
+b, strong {
+  font-weight: bolder;
+}
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+dfn {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -.25em;
+}
+
+sup {
+  top: -.5em;
+}
+
+audio, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+img {
+  border-style: none;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html [type=button], [type=reset], [type=submit] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner, [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+button:-moz-focusring, [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: .35em .75em .625em;
+}
+
+legend {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox], [type=radio] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details, menu {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+canvas {
+  display: inline-block;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: '';
+  clear: both;
+  height: 0;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+}
+
+header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+}
+
+.h-second,
+.h-third {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 45px;
+  line-height: 99.8px;
+  font-weight: 400;
+}
+
+.h-third {
+  color: #FFD300;
+}
+
+.h-fourth {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 40px;
+  line-height: 58px;
+  font-weight: 400;
+  letter-spacing: 1.3px;
+}
+
+.h-fifth {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 25px;
+  line-height: 58px;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+  color: #FFD300;
+}
+
+.pine-background,
+.dark-background {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.pine-background {
+  background-color: #2B331B;
+}
+
+.dark-background {
+  background-color: #171b0E;
+}
+
+.button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22.4px;
+  line-height: 41.6px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.home {
+  background-image: url(../the-restaurant-mall-assets/home-header.jpg);
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 30px;
+}
+
+.navigation li {
+  padding: 30px 20px 20px 0;
+}
+
+.navigation a {
+  border-bottom: 3px solid transparent;
+}
+
+.navigation a:hover,
+.navigation a:focus,
+.navigation a:active {
+  border-bottom: 3px solid #FFD300;
+}
+
+h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 69px;
+  line-height: 1;
+  font-weight: 600;
+  width: 470px;
+  padding-bottom: 300px;
+  margin: 0;
+}
+
+span {
+  display: inline-block;
+  background-color: #FFFFFF;
+  color: #0F0F0F;
+  padding-top: 14px;
+  margin-bottom: 10px;
+}
+
+.home img {
+  position: absolute;
+  width: 50%;
+  right: 0;
+  top: 15%;
+  max-width: 700px;
+}
+
+.about {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.about-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px;
+  width: 50%;
+}
+
+.icons i {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #0F0F0F;
+  background-color: #FFD300;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 20px 10px;
+}
+
+.burger {
+  padding: 70px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.burger-grid {
+  width: 50%;
+  margin: 0;
+}
+
+.burger-grid a {
+  background-color: #FFD300;
+  color: #0F0F0F;
+  margin-top: 30px;
+}
+
+.shadow1 img,
+.shadow2 img {
+  position: relative;
+}
+
+.shadow1 img {
+  -webkit-box-shadow: 20px 20px #FFD300;
+          box-shadow: 20px 20px #FFD300;
+  top: -100px;
+  left: 0;
+}
+
+.shadow2 img {
+  -webkit-box-shadow: -20px 20px #FFD300;
+          box-shadow: -20px 20px #FFD300;
+  bottom: -100px;
+  right: 0;
+}
+
+.shadow1 {
+  padding-right: 80px;
+  margin-bottom: -50px;
+}
+
+.shadow2 {
+  padding-left: 80px;
+  margin-top: -80px;
+}
+
+.left-align {
+  padding: 0px 80px 0 60px;
+  z-index: 1;
+}
+
+.right-align {
+  text-align: right;
+  padding: 20px 60px 0 80px;
+}
+
+.gift {
+  text-align: center;
+  padding: 120px 0 100px 0;
+}
+
+.gift a,
+.nature a {
+  background-color: #0F0F0F;
+  margin-top: 40px;
+}
+
+.gift p {
+  text-align: left;
+}
+
+.nature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 0;
+}
+
+.nature figure {
+  width: 30%;
+}
+
+.nature div {
+  width: 70%;
+  padding: 0;
+}
+
+.nature figure img {
+  -webkit-box-shadow: -20px 20px #FFD300;
+          box-shadow: -20px 20px #FFD300;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 50px 0;
+}
+
+footer {
+  background-color: #0F0F0F;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer a:hover,
+footer a:focus {
+  color: #FFD300;
+}
+
+.blog {
+  background-image: url(../the-restaurant-mall-assets/blog-header.jpg);
+}
+
+.blog-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 40% 60%;
+      grid-template-columns: 40% 60%;
+}
+
+.aside-box {
+  padding: 20px;
+  background-color: #171b0E;
+  margin: 60px 40px 40px 40px;
+}
+
+.aside-box figure {
+  margin: -35px 0 0 -60px;
+  padding-bottom: 20px;
+}
+
+.aside-box ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+aside p {
+  padding-bottom: 40px;
+}
+
+.employment-container {
+  margin-top: -80px;
+}
+
+.employment-container img {
+  -webkit-box-shadow: -20px 20px #FFD300;
+          box-shadow: -20px 20px #FFD300;
+}
+
+.employment-container figure {
+  margin: 0;
+  padding-left: 40px;
+}
+
+.employment-container div {
+  padding: 60px;
+  border-left: 5px solid #FFD300;
+  border-bottom: 5px solid #FFD300;
+  margin-left: 20px;
+}
+
+.employment-container p {
+  padding-top: 30px;
+}
+
+.byline {
+  font-weight: bold;
+  margin-top: -20px;
+}
+
+.comment-wrapper {
+  padding: 40px 80px;
+}
+
+.comment-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+}
+
+.comment-container figure,
+.comment-container div {
+  margin: 30px 0;
+}
+
+.comment-container div {
+  padding: 15px 0 0 20px;
+}
+
+.comment-container .byline {
+  color: #FFD300;
+  padding-bottom: 10px;
+}
+
+form[action=comment] {
+  padding: 0 60px 60px;
+}
+
+input {
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
+input[type=name],
+input[type=email] {
+  padding: 20px;
+  border: none;
+  border-bottom: 2px solid #FFD300;
+  width: 47.5%;
+}
+
+input[type=name] {
+  margin-right: 4%;
+}
+
+input[type=text] {
+  padding: 20px 20px 100px;
+  border: 2px solid #FFD300;
+  width: 100%;
+  margin-top: 30px;
+}
+
+::-webkit-input-placeholder {
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  opacity: 1;
+}
+
+::-ms-input-placeholder {
+  opacity: 1;
+}
+
+::placeholder {
+  opacity: 1;
+}
+
+form button {
+  background-color: #FFD300;
+  margin-top: 30px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
