@@ -1,0 +1,33 @@
+.contact {
+    background-image: url(../the-restaurant-mall-assets/contact-header.jpg)
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.socials {
+    display: flex;
+    color: $yellow;
+}
+
+.contact-container div {
+    padding: 70px 0 0 40px;
+}
+
+.socials li {
+    padding-right: 25px;
+}
+
+.contact-container p:nth-of-type(1) {
+    padding: 10px 0 20px;
+}
+
+form[action="contact"] {
+    background-color: $almost-black;
+    padding: 40px;
+    margin: -120px 20px 100px;
+    box-shadow: 20px 20px $yellow;
+}
+

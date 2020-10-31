@@ -360,7 +360,7 @@ h6 {
   font-weight: 700;
   text-align: center;
   letter-spacing: 1px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 }
 
 .navigation li {
@@ -382,9 +382,12 @@ h1 {
   font-size: 69px;
   line-height: 1;
   font-weight: 600;
-  width: 470px;
-  padding-bottom: 300px;
   margin: 0;
+  padding-bottom: 300px;
+}
+
+.home h1 {
+  width: 470px;
 }
 
 span {
@@ -561,6 +564,7 @@ footer a:focus {
   display: grid;
   -ms-grid-columns: 40% 60%;
       grid-template-columns: 40% 60%;
+  max-width: 2400px;
 }
 
 .aside-box {
@@ -660,7 +664,7 @@ input[type=name] {
 }
 
 input[type=text] {
-  padding: 20px 20px 100px;
+  padding: 20px 20px 150px;
   border: 2px solid #FFD300;
   width: 100%;
   margin-top: 30px;
@@ -688,4 +692,42 @@ form button {
   border: none;
   width: 100%;
   cursor: pointer;
+}
+
+.contact {
+  background-image: url(../the-restaurant-mall-assets/contact-header.jpg);
+}
+
+.contact-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 30% 70%;
+      grid-template-columns: 30% 70%;
+}
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #FFD300;
+}
+
+.contact-container div {
+  padding: 70px 0 0 40px;
+}
+
+.socials li {
+  padding-right: 25px;
+}
+
+.contact-container p:nth-of-type(1) {
+  padding: 10px 0 20px;
+}
+
+form[action="contact"] {
+  background-color: #171b0E;
+  padding: 40px;
+  margin: -120px 20px 100px;
+  -webkit-box-shadow: 20px 20px #FFD300;
+          box-shadow: 20px 20px #FFD300;
 }
