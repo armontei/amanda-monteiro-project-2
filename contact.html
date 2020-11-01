@@ -12,10 +12,24 @@
     <header class="contact" id="contact">
         <div class="wrapper">
             <!-- navigation -->
-            <nav>
+            <nav class="desktop-only">
                 <ul class="navigation">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./index.html#about">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- mobile top navigation -->
+            <nav class="mobile-only">
+                <label class="sr-only">Menu</label>
+                <label for="toggle"><i class="fa fa-bars"></i></label>
+                <input type="checkbox" id="toggle" name="toggle" />
+            
+                <ul class="mobile-nav">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="./blog.html">Blog</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>

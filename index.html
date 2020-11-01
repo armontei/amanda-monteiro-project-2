@@ -12,8 +12,22 @@
     <header class="home" id="home">
         <!-- navigation -->
         <div class="wrapper">
-            <nav>
+            <nav class="desktop-only">
                 <ul class="navigation">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- mobile top navigation -->
+            <nav class="mobile-only">
+                <label class="sr-only">Menu</label>
+                <label for="toggle"><i class="fa fa-bars"></i></label>
+                <input type="checkbox" id="toggle" name="toggle"/>
+
+                <ul class="mobile-nav">
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="./blog.html">Blog</a></li>
@@ -24,7 +38,7 @@
             <h1>The <span>Restaurant</span> Mall</h1>
         </div>
 
-        <img src="./the-restaurant-mall-assets/home-box-header.png" alt="Salad on a plate with people dining in background">
+        <img src="./the-restaurant-mall-assets/home-box-header.png" alt="Salad on a plate with people dining in background" class="desktop-only">
 
     </header>
 
@@ -91,15 +105,17 @@
                     <a href="#" class="button">Read more</a>
                 </div>
 
+                <figure class="burger-grid shadow2">
+                    <img src="./the-restaurant-mall-assets/right-image.jpg" alt="">
+                </figure>
+
                 <div class=" wrapper burger-grid right-align">
                     <h3 class="h-fourth">Try Something New</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio harum laborum totam delectus sed eius reprehenderit aliquam doloremque, nisi cum dolor dignissimos sint fugit atque blanditiis sunt magnam. Iure, animi?</p>
                     <a href="#" class="button">Read More</a>
                 </div>
 
-                <figure class="burger-grid shadow2">
-                    <img src="./the-restaurant-mall-assets/right-image.jpg" alt="">
-                </figure>
+                
             </div><!-- wrapper div -->
         </section>
 
@@ -135,7 +151,7 @@
             <div class="wrapper gallery">
                 <figure><img src="./the-restaurant-mall-assets/gallery-image-1.jpg" alt="lightbulbs on pole indoor decor"></figure>
                 <figure><img src="./the-restaurant-mall-assets/gallery-image-2.jpg" alt="neon sign saying take away"></figure>
-                <figure><img src="./the-restaurant-mall-assets/gallery-image-3.jpg" alt="bowls of food on wood table"></figure>
+                <figure class="desktop-only"><img src="./the-restaurant-mall-assets/gallery-image-3.jpg" alt="bowls of food on wood table"></figure>
             </div>
         </section>
     </main>
