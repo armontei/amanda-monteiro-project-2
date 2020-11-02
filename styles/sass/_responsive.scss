@@ -335,8 +335,9 @@
     }
 
     input[type=name],
-    input[type=email] {
-        width: 98%;
+    input[type=email],
+    form[action=comment] {
+        width: 99%;
     }
 
     // contact

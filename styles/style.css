@@ -1051,8 +1051,9 @@ form[action="contact"] {
     padding: 0 0 40px 0;
   }
   input[type=name],
-  input[type=email] {
-    width: 98%;
+  input[type=email],
+  form[action=comment] {
+    width: 99%;
   }
   form[action="contact"] {
     -webkit-box-shadow: none;
