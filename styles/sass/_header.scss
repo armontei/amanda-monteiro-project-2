@@ -25,7 +25,7 @@
 }
 
 h1 {
-    @include josefin(6.9rem, 1, 600);
+    @include josefin(6.9rem, normal, 600);
     margin: 0;
     padding-bottom: 300px;
 }

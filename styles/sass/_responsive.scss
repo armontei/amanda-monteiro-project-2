@@ -66,7 +66,7 @@
     // blog
     input[type=name],
     input[type=email] {
-        width: 100%;
+        width: 99%;
         margin-bottom: 20px;
     }
 
@@ -142,8 +142,6 @@
     .shadow1 img,
     .shadow2 img {
         position: static;
-        box-shadow: none;
-        border: 10px solid $yellow;
     }
 
     .shadow1 img,
@@ -191,6 +189,7 @@
         padding: 10px;
         margin: 60px 10px 0 10px;
     }
+
     .comment-wrapper {
         padding: 30px 0;
     }
@@ -270,6 +269,10 @@
         width: 100%;
     }
 
+    .h-third {
+        @include josefin(3.2rem, 60px , 400);
+    }
+
     .gallery,
     .gallery :nth-child(3) {
         display: block;
@@ -284,7 +287,7 @@
         display: flex;
         flex-direction: column;
     }
-
+    
     .aside-box {
         padding: 20px;
         margin: 10px;
@@ -310,6 +313,8 @@
     .employment-container div {
         padding: 10px;
         margin-left: 10px;
+        border-left: 2px solid #FFD300;
+        border-bottom: 2px solid #FFD300;
     }
 
     .comment-wrapper,
@@ -328,7 +333,7 @@
     form[action=comment] {
         padding: 0 0 40px 0;
     }
-    
+
     // contact
     form[action="contact"] {
         box-shadow: none;

@@ -384,7 +384,7 @@ h6 {
 h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 6.9rem;
-  line-height: 1;
+  line-height: normal;
   font-weight: 600;
   margin: 0;
   padding-bottom: 300px;
@@ -825,7 +825,7 @@ form[action="contact"] {
   }
   input[type=name],
   input[type=email] {
-    width: 100%;
+    width: 99%;
     margin-bottom: 20px;
   }
 }
@@ -885,9 +885,6 @@ form[action="contact"] {
   .shadow1 img,
   .shadow2 img {
     position: static;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-    border: 10px solid #FFD300;
   }
   .shadow1 img,
   .shadow2 img,
@@ -994,6 +991,12 @@ form[action="contact"] {
   .about-grid {
     width: 100%;
   }
+  .h-third {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.2rem;
+    line-height: 60px;
+    font-weight: 400;
+  }
   .gallery,
   .gallery :nth-child(3) {
     display: block;
@@ -1031,6 +1034,8 @@ form[action="contact"] {
   .employment-container div {
     padding: 10px;
     margin-left: 10px;
+    border-left: 2px solid #FFD300;
+    border-bottom: 2px solid #FFD300;
   }
   .comment-wrapper,
   form[action=comment] {
@@ -1052,9 +1057,4 @@ form[action="contact"] {
     margin: 20px 10px;
     border: 3px solid #FFD300;
   }
-}
-
-bug fixing comment out when done
-* {
-  border: 1px solid lightcoral;
 }
