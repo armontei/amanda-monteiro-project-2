@@ -394,7 +394,7 @@ h1 {
   width: 470px;
 }
 
-span {
+.normal-span {
   display: inline-block;
   background-color: #FFFFFF;
   color: #0F0F0F;
@@ -777,7 +777,7 @@ form[action="contact"] {
     font-size: 5rem;
   }
   .home h1 {
-    width: 370px;
+    width: 350px;
   }
   .h-second,
   .h-third {
@@ -977,6 +977,13 @@ form[action="contact"] {
 }
 
 @media (max-width: 540px) {
+  .mobile-span {
+    display: inline-block;
+    background-color: #FFFFFF;
+    color: #0F0F0F;
+    padding-top: 14px;
+    margin-bottom: 10px;
+  }
   .icons {
     display: inline-block;
   }

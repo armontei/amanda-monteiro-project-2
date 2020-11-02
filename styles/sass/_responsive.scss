@@ -13,7 +13,7 @@
     }
 
     .home h1 {
-        width: 370px;
+        width: 350px;
     }
 
     // main
@@ -247,6 +247,15 @@
 // MOBILE
 
 @media (max-width: 540px) {
+    // header
+    .mobile-span {
+        display: inline-block;
+        background-color: $white;
+        color: $black;
+        padding-top: 14px;
+        margin-bottom: 10px;
+    }
+
     // main
     .icons {
         display: inline-block;
