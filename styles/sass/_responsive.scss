@@ -97,14 +97,14 @@
     .mobile-nav a {
         padding: 20px;
         display: inline-block;
-        border-bottom: 1px solid $white;
+        border-bottom: 1px solid $yellow;
         width: 100%;
         text-align: center;
     }
 
     label {
         position: fixed;
-        color: $yellow;
+        color: $white;
         top: 20px;
         right: 20px;
     }
@@ -158,6 +158,10 @@
         padding: 40px 0;
     }
 
+    .gift p {
+        text-align: center;
+    }
+
     .nature {
         display: block;
         text-align: center;
@@ -208,12 +212,42 @@
         padding-left: 0;
     }
 
+    .h-fifth {
+        @include josefin(2.3rem, 55px , 400);
+        letter-spacing: 0.7px;
+    }
+
+    // contact
+    .contact-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    form[action="contact"] {
+        margin: 40px 50px 30px 40px;
+    }
+
+    .contact-container div {
+        padding: 30px 0;
+    }
+
+    .socials {
+        justify-content: center;  
+    }
+
+    .socials li {
+        padding: 0 10px;
+    }
+
 }
 
+
 // MOBILE
+
 @media (max-width: 540px) {
     // main
-
     .icons {
         display: inline-block;
     }
@@ -235,5 +269,63 @@
     .gallery figure {
         padding: 10px 0;
     }
+
+    // blog
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aside-box {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .aside-box figure {
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .employment-container {
+        margin: 0;
+    }
+
+    .employment-container img {
+        box-shadow: -5px 5px $yellow;
+    }
+
+    .employment-container figure {
+        padding: 10px 10px 0 15px;
+    }
+
+    .employment-container div {
+        padding: 10px;
+        margin-left: 10px;
+    }
+
+    .comment-wrapper,
+    form[action=comment] {
+        margin: 10px;
+    }
+
+    .comment-wrapper {
+        padding: 30px 0 5px 0;
+    }
+
+    .comment-container div {
+        padding-right: 0;
+    }
+
+    form[action=comment] {
+        padding: 0 0 40px 0;
+    }
     
+    // contact
+    form[action="contact"] {
+        box-shadow: none;
+        padding: 15px;
+        margin: 20px 10px;
+        border: 3px solid $yellow;
+    }
+
 }

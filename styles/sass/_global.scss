@@ -54,7 +54,7 @@ h6 {
 
 .h-second,
 .h-third {
-    @include josefin(45px, 99.8px , 400);
+    @include josefin(4.5rem, 99.8px , 400);
 }
 
 .h-third {
@@ -62,12 +62,12 @@ h6 {
 }
 
 .h-fourth {
-    @include josefin(40px, 58px , 400);
+    @include josefin(4rem, 58px , 400);
     letter-spacing: 1.3px;
 }
 
 .h-fifth {
-    @include josefin(25px, 58px , 400);
+    @include josefin(2.5rem, 58px , 400);
     letter-spacing: 0.8px;
     color: $yellow;
 }
@@ -87,7 +87,7 @@ h6 {
 }
 
 .button {
-    @include josefin(22.4px, 41.6px , 400);
+    @include josefin(2.24rem, 41.6px , 400);
     display: inline-block;
     padding: 5px 10px;
     text-align: center;
@@ -97,3 +97,5 @@ h6 {
 .mobile-only {
     display: none;
 }
+
+// I original did the font sizes in pixels to match the style guide but then realized rem might be better so I coverted them to the rem equivalent, I left the line spacing in pixels, is this okay or is it better to either use either all pixels or all rems?

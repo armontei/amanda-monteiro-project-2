@@ -4,7 +4,7 @@
 
 .navigation {
     display: flex;
-    @include josefin(20px, 29px , 700);
+    @include josefin(2rem, 29px , 700);
     text-align: center;
     letter-spacing: 1px;
     padding-bottom: 40px;
@@ -25,7 +25,7 @@
 }
 
 h1 {
-    @include josefin(69px, 1 , 600);
+    @include josefin(6.9rem, 1, 600);
     margin: 0;
     padding-bottom: 300px;
 }
